@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributed.Caching", "Distributed.Caching\Distributed.Caching.csproj", "{8CDE392F-9ECA-417A-84B7-F8ADD9B02613}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{FCCBC486-329F-4A06-93CF-2FA6E69C2C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Sentinel", "Redis.Sentinel\Redis.Sentinel.csproj", "{09631A84-BFCC-4120-9B42-3C026EB02691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CDE392F-9ECA-417A-84B7-F8ADD9B02613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDE392F-9ECA-417A-84B7-F8ADD9B02613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDE392F-9ECA-417A-84B7-F8ADD9B02613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDE392F-9ECA-417A-84B7-F8ADD9B02613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCBC486-329F-4A06-93CF-2FA6E69C2C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCBC486-329F-4A06-93CF-2FA6E69C2C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCBC486-329F-4A06-93CF-2FA6E69C2C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCBC486-329F-4A06-93CF-2FA6E69C2C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09631A84-BFCC-4120-9B42-3C026EB02691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09631A84-BFCC-4120-9B42-3C026EB02691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09631A84-BFCC-4120-9B42-3C026EB02691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09631A84-BFCC-4120-9B42-3C026EB02691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3A9B4BD-F554-4C8F-821E-56B54D8DEC53}
+	EndGlobalSection
+EndGlobal
